@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Jabali.iml" filepath="$PROJECT_DIR$/Jabali.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jabali-android.iml" filepath="$PROJECT_DIR$/jabali-android.iml" />
     </modules>
   </component>
 </project>
