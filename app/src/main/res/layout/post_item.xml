@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp" >
+
+    <!-- Thumbnail Image -->
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/avatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ic_launcher"/>
+
+    <!-- Post Title -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/avatar"
+        android:layout_toRightOf="@+id/avatar"
+        android:textSize="@dimen/title"
+        android:textStyle="bold"
+        android:text="Kevin Barasa"/>
+
+    <!-- Registration NO-->
+    <TextView
+        android:id="@+id/reg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/avatar"
+        android:textSize="@dimen/reg"
+        android:text="SPTH/DEC/2016" />
+
+    <!-- Category of Post -->
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reg"
+        android:layout_toRightOf="@+id/avatar"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Techie"/>
+    <!-- Category of Post -->
+
+</RelativeLayout>
