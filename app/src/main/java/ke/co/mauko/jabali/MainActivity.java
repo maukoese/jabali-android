@@ -72,6 +72,7 @@ public class MainActivity extends AppCompatActivity
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new MembersFragment(), "Members");
         adapter.addFragment(new PostsFragment(), "Posts");
+        adapter.addFragment(new PostsFragment(), "Comments");
         viewPager.setAdapter(adapter);
     }
     class ViewPagerAdapter extends FragmentPagerAdapter {

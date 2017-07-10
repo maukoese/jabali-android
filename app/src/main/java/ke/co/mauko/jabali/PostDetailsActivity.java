@@ -35,8 +35,8 @@ public class PostDetailsActivity extends AppCompatActivity {
         loadBackdrop();
 
         //Bio section
-        TextView bio = (TextView) findViewById(R.id.bio);
-        bio.setText(extras.getString("EXTRA_BIO"));
+        WebView bio = (WebView) findViewById(R.id.webViewbio);
+        bio.loadData(extras.getString("EXTRA_BIO"),"text/html",null);
 
         //Category section
         TextView category = (TextView) findViewById(R.id.category);
